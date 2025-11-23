@@ -134,7 +134,7 @@ def predict(request: PredictRequest, token_data: dict = Depends(verify_token)):
     Endpoint de prédiction de sentiment (protégé par JWT)
 
     Reçoit un texte et retourne l'analyse de sentiment effectuée par l'API Hugging Face.
-    Nécessite un token JWT valide dans l'en-tête Authorization.
+    Nécessite un token JWT valide dans l'en-tête Authorization. 
 
     - **text**: Texte à analyser (minimum 1 caractère)
 
